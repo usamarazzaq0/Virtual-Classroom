@@ -2,15 +2,7 @@
   <div class="flex-1 py-6">
     <div class="bg-white px-4">
       <div v-if="this.$store.state.alert === true">
-        <Alert />
-      </div>
-      <div v-if="error.status" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
-          
-        <div class="mt-1">
-          <input
-            type="text"
-            v-model="title"
-            class="
+        <A
               block
               w-full
               rounded-md
